@@ -3,7 +3,7 @@ import React from "react";
 export default function AboutMe() {
   return (
     <div>
-      <h1>About Me</h1>
+      <h2>About Me</h2>
       <p>
         My name is Oscar Silva. The most significant challenge I’ve faced is
         being born into a family of immigrants who were previously undocumented
