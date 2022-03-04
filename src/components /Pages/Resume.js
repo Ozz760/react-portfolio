@@ -4,7 +4,7 @@ export default function Resume() {
   return (
     <div>
       <h2>Resume</h2>
-      <p>Download My Resume</p>
+      <p>Download My <a href="./Images/Web Development Resume 03:03:2022.pdf">Resume</a></p>
 
       <h3>Front-end Proficiencies</h3>
       <ul>
