@@ -1,13 +1,20 @@
 import React from "react";
+import "../styles/Resume.css";
+const resumeS = require("../images/Web Development Resume 03:03:2022.pdf");
 
-export default function Resume() {
+function Resume() {
   return (
     <div>
-      <h2>Resume</h2>
-      <p>Download My <a href="./Images/Web Development Resume 03:03:2022.pdf">Resume</a></p>
+      <h2 id="Headerr">Resume</h2>
+      <p id="resume">
+        Download My{" "}
+        <a href={resumeS} target="_blank" rel="noreferrer">
+          Resume
+        </a>
+      </p>
 
-      <h3>Front-end Proficiencies</h3>
-      <ul>
+      <h3 id="fEnd">Front-end Proficiencies</h3>
+      <ul id="list">
         <li>HTML</li>
         <li>CSS</li>
         <li>JavaScript</li>
@@ -17,8 +24,8 @@ export default function Resume() {
         <li>Bootstrap</li>
       </ul>
 
-      <h3>Back-end Proficiencies</h3>
-      <ul>
+      <h3 id="bEnd">Back-end Proficiencies</h3>
+      <ul id="listb">
         <li>APIs</li>
         <li>Node</li>
         <li>Express</li>
@@ -30,3 +37,5 @@ export default function Resume() {
     </div>
   );
 }
+
+export default Resume;
