@@ -1,10 +1,13 @@
 import React from "react";
+import "../styles/AboutMe.css"
+const profile = require("../images/Student-Profile.jpg")
 
-export default function AboutMe() {
+function AboutMe() {
   return (
     <div>
-      <h2>About Me</h2>
-      <p>
+      <h2 id="AboutM">About Me</h2>
+      <img src={profile} id="imgO" alt="Oscar Silva"/>
+      <p id="AboutP">
         My name is Oscar Silva. The most significant challenge I’ve faced is
         being born into a family of immigrants who were previously undocumented
         and growing up in the rough neighborhoods of east Oceanside. Modern day
@@ -29,3 +32,5 @@ export default function AboutMe() {
     </div>
   );
 }; 
+
+export default AboutMe;
