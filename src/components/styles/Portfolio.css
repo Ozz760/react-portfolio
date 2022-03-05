@@ -1,0 +1,99 @@
+#work {
+    margin-left: 4rem;
+}
+
+.page-wrapper {
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-section {
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.page-section {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 4px solid var(--viridianGreen);
+    font-size: 4vw;
+    line-height: 1.1;
+}
+
+.page-section>div {
+    flex: 0 0 77%;
+}
+
+.page-section p {
+    margin-bottom: 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-item {
+    border: 5px solid var(--midnightGreen);
+    background-color: var(--timberwolf);
+    color: var(--midnightGreen);
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
+}
+
+/* feature first portfolio item */
+.flex-item:first-child {
+    min-height: 400px;
+    flex-basis: 100%;
+}
+
+.flex-item:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.flex-item div {
+    /* background color option */
+    padding: 8px 10px;
+}
+
+.flex-item h3 {
+    font-size: 1.6rem;
+}
+
+.run-buddy {
+    background-image: url("../images/stockimage.jpg");
+}
+
+.led-wall {
+    background-image: url("../images/stockimage.jpg");
+}
+
+.react-calc {
+    background-image: url("../images/thirdbackground.jpg");
+}
+
+.pastel-puzzles {
+    background-image: url("../images/blurstreet.jpg");
+}
+
+.project-1 {
+    background-image: url("../images/recipeRoulette.png");
+}
