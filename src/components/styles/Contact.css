@@ -1,0 +1,42 @@
+#contact {
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+}
+
+#name {
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+    font-size: larger;
+}
+
+#email {
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+    font-size: larger;
+    margin-top: 1rem;
+}
+
+#message {
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+    font-size: larger;
+    margin-top: 1rem;
+}
+
+#boxf {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+#boxs {
+    margin-left: 4rem;
+}
+
+#boxt {
+    margin-left: 4rem;
+}
+
+#submit {
+    margin-left: 4rem;
+    margin-top: 2rem;
+}

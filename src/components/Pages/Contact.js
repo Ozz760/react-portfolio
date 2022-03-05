@@ -1,19 +1,46 @@
 import React from "react";
+import "../styles/Contact.css";
 
 export default function ContactMe() {
   return (
     <div>
-      <h2> Contact</h2>
+      <h2 id="contact"> Contact</h2>
 
-      <section>
-        <h4>Name: </h4>
-        <textarea placeholder="First and Last Name"></textarea>
-        <h4>Email Address: </h4>
-        <textarea placeholder="Email Address"></textarea>
-        <h4>Message: </h4>
-        <textarea placeholder="Place your message here"></textarea>
-      </section>
-      <button>Submit</button>
+      <form>
+        <div class="form-group w-50">
+          <label for="exampleFormControlInput1" id="name">
+            Name:{" "}
+          </label>
+          <input
+            type="email"
+            class="form-control"
+            id="boxf"
+            placeholder="First and Last Name"
+          ></input>
+        </div>
+
+        <div class="form-group w-50">
+          <label for="exampleFormControlInput1" id="email">
+            Email address:{" "}
+          </label>
+          <input
+            type="email"
+            class="form-control"
+            id="boxs"
+            placeholder="name@example.com"
+          ></input>
+        </div>
+
+        <div class="form-group w-50">
+          <label for="exampleFormControlTextarea1" id="message">
+            Message:{" "}
+          </label>
+          <textarea class="form-control" id="boxt" rows="3"></textarea>
+        </div>
+      </form>
+      <button type="button" class="btn btn-secondary" id="submit">
+        Submit
+      </button>
     </div>
   );
 }
