@@ -51,9 +51,14 @@ export default function Portfolio() {
           </div>
         </a>
 
-        <a href="#" class="flex-item run-buddy">
+        <a
+          href="https://queuejump.herokuapp.com/"
+          target="_blank"
+          class="flex-item run-buddy"
+          rel="noreferrer"
+        >
           <div>
-            <h3>Placeholder</h3>
+            <h3>QueueJump</h3>
             <span>Project 3</span>
           </div>
         </a>
