@@ -1,5 +1,6 @@
 import React from "react";
-import "./styles/NavTabs.css"
+import "./styles/NavTabs.css";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
@@ -53,6 +54,26 @@ function NavTabs({ currentPage, handlePageChange }) {
           </li>
         </ul>
       </nav>
+      <div className="Icons">
+        <ul>
+          <li>
+            <a href="https://github.com/Ozz760" target="_blank" rel="noreferrer">
+              <FaGithub />{" "}
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/oscar-silva-b53684156/" target="_blank" rel="noreferrer">
+              {" "}
+              <FaLinkedin />
+            </a>
+          </li>
+          <li>
+            <a href="mailto:oscarsilva2356@gmail.com" target="_blank" rel="noreferrer">
+              <FaEnvelope />{" "}
+            </a>
+          </li>
+        </ul>
+      </div>
     </header>
   );
 }
