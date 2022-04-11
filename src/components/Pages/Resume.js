@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Resume.css";
-const resumeS = require("../images/Web Development Resume 03:03:2022.pdf");
+const resumeS = require("../images/Oscar Silva Software Developer Resume.pdf");
 
 function Resume() {
   return (
