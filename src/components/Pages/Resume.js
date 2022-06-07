@@ -1,10 +1,10 @@
 import React from "react";
 import "../styles/Resume.css";
-const resumeS = require("../images/Oscar Silva Software Developer Resume.pdf");
+const resumeS = require("../images/Software Developer Resume.pdf");
 
 function Resume() {
   return (
-    <div>
+    <div className="wholeResume">
       <h2 id="Headerr">Resume</h2>
       <p id="resume">
         Download My{" "}
@@ -33,6 +33,7 @@ function Resume() {
         <li>MongoDB, Mongoose</li>
         <li>REST</li>
         <li>GraphQL</li>
+        <li>Java</li>
       </ul>
     </div>
   );
