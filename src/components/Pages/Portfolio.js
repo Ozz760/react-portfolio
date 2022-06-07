@@ -7,7 +7,7 @@ export default function Portfolio() {
       <h2 id="work">Work</h2>
       <div class="flex-container">
         <a
-          href="https://ozz760.github.io/project-01/"
+          href="https://kreativekntrl.github.io/project-01/"
           target="_blank"
           class="flex-item project-1"
           rel="noreferrer"
@@ -19,13 +19,13 @@ export default function Portfolio() {
         </a>
 
         <a
-          href="https://ozz760.github.io/bc-Homework3/"
+          href="https://murmuring-depths-08823.herokuapp.com/"
           target="_blank"
           class="flex-item led-wall"
           rel="noreferrer"
         >
           <div>
-            <h3>Password Generator</h3>
+            <h3>Text-Editor-IO</h3>
           </div>
         </a>
         <a
