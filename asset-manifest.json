@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.6089a9f1.css",
-    "main.js": "/react-portfolio/static/js/main.ea0a1c3c.js",
+    "main.css": "/react-portfolio/static/css/main.90caede8.css",
+    "main.js": "/react-portfolio/static/js/main.ef46d929.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/recipeRoulette.png": "/react-portfolio/static/media/recipeRoulette.9f2d9bc70f2c52d1a83f.png",
-    "static/media/Student-Profile.jpg": "/react-portfolio/static/media/Student-Profile.31073b30f58e80160d44.jpg",
-    "static/media/Oscar Silva Software Developer Resume.pdf": "/react-portfolio/static/media/Oscar Silva Software Developer Resume.0570b8fcee147daf29d2.pdf",
+    "static/media/Portfolio-Profile.jpg": "/react-portfolio/static/media/Portfolio-Profile.4b2f6a380e4b0cd1b5cc.jpg",
+    "static/media/Software Developer Resume.pdf": "/react-portfolio/static/media/Software Developer Resume.ea73b7acf89c861a9a78.pdf",
     "index.html": "/react-portfolio/index.html",
-    "main.6089a9f1.css.map": "/react-portfolio/static/css/main.6089a9f1.css.map",
-    "main.ea0a1c3c.js.map": "/react-portfolio/static/js/main.ea0a1c3c.js.map",
+    "main.90caede8.css.map": "/react-portfolio/static/css/main.90caede8.css.map",
+    "main.ef46d929.js.map": "/react-portfolio/static/js/main.ef46d929.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6089a9f1.css",
-    "static/js/main.ea0a1c3c.js"
+    "static/css/main.90caede8.css",
+    "static/js/main.ef46d929.js"
   ]
 }
