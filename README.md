@@ -5,7 +5,7 @@ This application is a revised version of our Portfolio. The application demos ou
 
 https://ozz760.github.io/react-portfolio/
 
-![Photo of Oscar Silva](./src/components/images/Screen-Shot.png) 
+![Photo of Oscar Silva](./Screen-Shot.png) 
 
 ## Technology 
 
