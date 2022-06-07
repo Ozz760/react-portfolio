@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/AboutMe.css";
-const profile = require("../images/Student-Profile.jpg");
+const profile = require("../images/Portfolio-Profile.jpg");
 
 function AboutMe() {
   return (
